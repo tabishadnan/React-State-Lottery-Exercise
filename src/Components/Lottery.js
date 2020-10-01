@@ -25,7 +25,7 @@ class Lottery extends Component {
         return (
             <div>
                 <h1>{this.props.title}</h1>
-                <div className="LotteryBall-wrapper">
+                <div className="lotteryball-wrapper">
                     {this.state.nums.map(n => <LotteryBall nums={n}/>)}
                 </div>
                 <button onClick={this.handleClick}>Generat</button>
